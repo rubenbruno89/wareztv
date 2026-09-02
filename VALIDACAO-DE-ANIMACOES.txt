@@ -1,0 +1,22 @@
+VALIDACAO DE ANIMACOES - SiteCloner Pro 1.2.4
+================================================
+
+Origem: https://wareztvoficial.com.br/
+Fonte do HTML: network-original
+Recursos registrados durante a execucao: 9
+Mapeamentos usados pelo runtime local: 20
+Stack observada: nao identificada
+
+RESULTADO
+---------
+[ok] HTML original preservado e dependencias de animacao observadas foram incorporadas.
+
+IMPORTANTE
+----------
+Execute por http://localhost. Abrir index.html por duplo clique usa file:// e
+pode bloquear modulos, fetch, WASM, workers, Rive e outras animacoes modernas.
+
+AVISOS TECNICOS DA CAPTURA
+--------------------------
+- https://www.googletagmanager.com/gtag/js?id=G-91N9NTRHVR — {"code":-32000,"message":"No resource with given identifier found"}
+- https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925 — {"code":-32000,"message":"No resource with given identifier found"}

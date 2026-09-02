@@ -1,0 +1,12 @@
+RELATÓRIO DE CAPTURA — SiteCloner Pro
+========================================
+
+Site clonado : https://wareztvoficial.com.br/
+Data         : 02/09/2026, 02:58:39
+
+RESUMO
+------
+Modo de captura: avancado (rede real + HTML original)
+Recursos obtidos da execucao real: 9
+[ok] 31 arquivos capturados com sucesso.
+[ok] Nenhum arquivo ficou de fora. Captura completa!

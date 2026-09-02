@@ -1,0 +1,33 @@
+SITECLONER PRO - COMO ABRIR O CLONE
+=====================================
+
+WINDOWS
+-------
+1. Extraia todo o conteudo do ZIP para uma pasta.
+2. De dois cliques em ABRIR-SITE.cmd.
+3. O navegador sera aberto automaticamente.
+4. Mantenha a janela do servidor aberta enquanto usar o site.
+5. Para encerrar, feche a janela ou pressione Ctrl+C.
+
+Nao e necessario escolher ou configurar a porta. O launcher tenta usar a porta
+3000 por compatibilidade e seleciona outra porta automaticamente se ela estiver
+ocupada.
+
+POR QUE O DUPLO CLIQUE NO INDEX.HTML NAO FUNCIONA?
+--------------------------------------------------
+Sites modernos usam modulos JavaScript, fetch, WebAssembly, Workers, Rive e
+WebGL. Os navegadores bloqueiam parte desses recursos quando o arquivo e aberto
+diretamente pelo protocolo file://. O launcher cria apenas um servidor local no
+seu computador. Nenhum arquivo do clone e enviado para a internet.
+
+ALTERNATIVAS MANUAIS
+--------------------
+Se preferir usar uma ferramenta ja instalada, abra um terminal nesta pasta:
+
+Node.js:
+  npx serve .
+
+Python:
+  python -m http.server 8000
+
+Depois abra o endereco mostrado pelo terminal.
